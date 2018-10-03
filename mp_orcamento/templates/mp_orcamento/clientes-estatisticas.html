@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Clientes Estatisticas</title>
+</head>
+<body>
+
+<h1>Clientes Estatisticas</h1>
+<table border="1" width="100%">
+  <thead>
+    <tr>
+        <th>Qtd de clientes</th>
+        <th colspan="2">Maior custo total de orçamentos</th>
+        <th colspan="2">Menor custo total de orçamentos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ qtd_de_clientes }}</td>
+      <td><b>Nome: </b>{{ nome_cliente_maior }}</td>
+      <td><b>Somatório: </b>{{ somatorio_cliente_maior }}</td>
+      <td><b>Nome: </b>{{ nome_cliente_menor }}</td>
+      <td><b>Somatório: </b>{{ somatorio_cliente_menor }}</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
